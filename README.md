@@ -1,1 +1,19 @@
-# STORE_RATING_APP
+# Store Rating App - Backend (Express + MySQL + Sequelize)
+
+## Quick Start
+```bash
+cd frontend
+npm install
+npm run dev
+cd backend
+
+#.env with your MySQL creds
+npm install
+npm run dev
+```
+
+## Create DB
+Create a MySQL database with the name in `.env` (store_ratings). Sequelize will sync tables automatically on server start.
+
+## Roles
+- `admin`, `user`, `owner`
